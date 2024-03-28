@@ -39,28 +39,31 @@ After I saved the changes, I clicked on `Reset Password` at the top of page in o
 
 ![Image](EntraID8.png)
 
+Objective completed!
+
 ## Revoke Access to a Microsoft Entra ID User Account
 
-Now, I googled how to create a VM using PowerShell in the Azure Cloud Shell ([link here](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell)). The webpage had the following output:
+The next objective is to revoke access to a user. I went to Edward Von's profile and then at the top of the page, I clicked `Revoke sessions` which will then log them out of their account. 
 
-![Image](AzureCreatingVMs4.png)
+![Image](EntraID9.png)
 
-I only chose a few aspects from these parameters since i didn't create a Vnet. I had to create a username and a password. Once that was finished, Azure created the VM. 
+That pretty much completes that revocation process. There's another step when you can disable the account I believe but not delete it. For now, the revoke sessions is enough. 
 
-![Image](AzureCreatingVMs5.png)
+On to the last objective.
 
 ## Delete a Microsoft Entra ID User Account
 
-We can use the PowerShell cmdlet `AzVM` to list the newly created VM. We can also go to the portal and check it there.
+The final objective is to delete a user. I chose Edward Von again and clicked `Delete` at the top of his profile. 
 
-![Image](AzureCreatingVMs6.png)
-![Image](AzureCreatingVMs7.png)
+![Image](EntraID10.png)
 
+After answering any prompts Azure asked, your profile will be delete which is shown in the current list of users. 
 
+![Image](EntraID11.png)
+
+Lab completed!
 
 
 ## Personal Notes
 
-The " ` " character helps make the input more visible. I will definitely be using that. 
-
-Also, I see why people use variables for different parameters such as the subscription and RG. Copy and pasting wasn't working for me (I was probably just doing it wrong) but it would be nice to assign a variable to each of these values and then put the commands in. It's easier to manage. 
+This was an easy lab and it only took 10 minutes. This is one of those things that may just be easier to finish in the Portal instead of automating it. 
