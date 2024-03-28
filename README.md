@@ -23,15 +23,21 @@ Creating a user is pretty straightforward. I clicked on `New User` at the top of
 
 ![Image](EntraID4.png)
 
-We had to create two users so I created Ayanna Will and Edward Von <3. That completes the first objective
+We had to create two users so I created Ayanna Will and Edward Von <3. That completes the first objective.
 
 ![Image](EntraID5.png)
 
 ## Modify a Microsoft Entra ID User Account
 
-In PowerShell, we can use simple commands such as `AzResourceGroup`, `AzStorageAccount`, and `AzVM` to see the resources that we've created. Our RG was listed and so was the Storage Account that I created for this lab. The AzVM command had no output because we haven't created a VM yet. 
+For the next objective, we were tasked with modifying a user's properties and resetting their password. So I clicked on Ayanna Will's profile, clicked `Edit Properties` and changed her job description. 
 
-![Image](AzureCreatingVMs3.png)
+![Image](EntraID6.png)
+
+![Image](EntraID7.png)
+
+After I saved the changes, I clicked on `Reset Password` at the top of page in order to reset her password. A pop up on the right side of the page will appear displaying the new temporary password.
+
+![Image](EntraID8.png)
 
 ## Revoke Access to a Microsoft Entra ID User Account
 
