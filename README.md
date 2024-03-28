@@ -9,15 +9,23 @@
 
 ## Create Microsoft Entra ID User Accounts
 
-Once you're logged into the portal, lets navigate to the Entra ID section of the portal by typing Microsoft Entra ID in the search bar.
+Once I was logged into the portal, I navigated to the Entra ID section of the portal by typing Microsoft Entra ID in the search bar.
 
 ![Image](EntraID1.png)
 
-Once you're in Entra ID, look for the `Users` blade on the left side. 
+Once I was in Entra ID, I found the `Users` blade on the left side. 
 
 ![Image](EntraID2.png)
 
-Once you've create a sotrage account and a file share, click the Azure Shell icon. Choose Powershell and then click Advanced Settings. Here, input your storage account and File Share information. PowerShell should start to initialize now.
+Creating a user is pretty straightforward. I clicked on `New User` at the top of the page and put in the name for my users. We also have to give them a password and Azure conveniently will generate a password for you. 
+
+![Image](EntraID3.png)
+
+![Image](EntraID4.png)
+
+We had to create two users so I created Ayanna Will and Edward Von <3. That completes the first objective
+
+![Image](EntraID5.png)
 
 ## Modify a Microsoft Entra ID User Account
 
