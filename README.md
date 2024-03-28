@@ -11,11 +11,11 @@
 
 Once you're logged into the portal, lets navigate to the Entra ID section of the portal by typing Microsoft Entra ID in the search bar.
 
-![Image](Entra ID 1.png)
+![Image](EntraID1.png)
 
 Once you're in Entra ID, look for the `Users` blade on the left side. 
 
-![Image](Entra ID 2.png)
+![Image](EntraID2.png)
 
 Once you've create a sotrage account and a file share, click the Azure Shell icon. Choose Powershell and then click Advanced Settings. Here, input your storage account and File Share information. PowerShell should start to initialize now.
 
